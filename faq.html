@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<script type="text/javascript" src="script/script.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="sonder">
+	<meta name="description" content="Оффициальный сайт группы sonder">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>SONDER Официальный сайт</title>
+</head>
+<body>
+<main>
+	<div id="forheader" class="forheader1">
+		<div></div>
+		<div class="iphonelogo" id="iphonelogo1">
+			<a href="index.html"><img src="img/logo.png"></a>
+		</div>
+	</div>
+	<header id="iphone">
+		<div></div>
+		<div id="logo">
+			<img src="img/logo.png">
+		</div>
+		<nav id="topmenu">
+			<ul id="menu">
+					<a href="index.html"> ГЛАВНАЯ</a>
+					<a href="news.html"> НОВОСТИ</a>
+					<a href="photo.html"> ГАЛЕРЕЯ</a>
+					<a href="fest.html"> КОНЦЕРТЫ</a>
+					<a href="faq.html" style="transform: scale(1.15,1.15); color:white;"> ВИКТОРИНА</a>
+					<a onclick="change()"> ОСВЕТИТЬ</a>
+			</ul>
+		</nav>
+	</header>
+	<div class="faqbg">
+		<form action="#" class="allaboutus" name="form">
+			<div class="starttest" id="head"><p>Что вы знаете о группе "Sonder"?</p></div>
+			<div class="starttest"><p>Наша группа провоидит тестирование для своих нынешних и будущих фанатов!</p> <p>Интересные и интеллектуальные вопросы ждут вас в этой викторине, попробуйте свои силы прямо сейчас!</p><p>Нумерация участников слева направо на фоновом изображении!</p></div>
+			<div class="starttest" id="buttonst"><a onclick="start()">Начать!</a></div>
+			<div class="numq question">
+				Вопрос 1 из 10:
+			</div>
+			<div class ="question q1">
+				Кто является основателем и бессмертным лидером группы "Sonder"?
+			</div>
+			<div class ="question q2">
+				Где проходит большинство репетиций нашей группы?
+			</div>
+			<div class ="question q3">
+				Руководитель группы имеет фамилию известного космонавта, какого?
+			</div>
+			<div class ="question q4">
+				На каком четырехструнном инструменте ещё играет басист?
+			</div>
+			<div class ="question q5">
+				Кто самый пожилой участник группы? 
+			</div>
+			<div class ="question q6">
+				Какая песня из репертуара нашей группы звучала в рекламе?
+			</div>
+			<div class ="question q7">
+				Кто главный фанат группы "Сондер", ходил на все их выступления, а ткже является их пиар-менеджером, запасным участником и будущим бэк-вокалистом? 
+			</div>
+			<div class ="question q8">
+				Кто является талисманом нашей группы? 
+			</div>
+			<div class ="question q9">
+				Кто из членов группы уйдет этим летом в армию? 
+			</div>
+			<div class ="question q10">
+				Сколько человек в группе "Сондер" поёт? 
+			</div>
+
+			<div  class="q q1">
+					<label><input type="radio" name="quest1"><span>Полина (№3)</span></label>
+					<label><input type="radio" name="quest1"><span>Илья (№5)</span></label>
+					<label><input type="radio" name="quest1"><span>Кирилл (№6)</span></label>
+					<label><input type="radio" name="quest1"><span>Николай (№1)</span></label>
+			</div>
+			<div  class="q q2">
+					<label><input type="radio" name="quest2"><span>STARGAZER</span></label>
+					<label><input type="radio" name="quest2"><span>На улице</span></label>
+					<label><input type="radio" name="quest2"><span>Они не проходят</span></label>
+					<label><input type="radio" name="quest2"><span>ДК "Покровский"</span></label>
+			</div>
+			<div  class="q q3">
+					<label><input type="radio" name="quest3"><span>Гагарин</span></label>
+					<label><input type="radio" name="quest3"><span>Леонов</span></label>
+					<label><input type="radio" name="quest3"><span>Титов</span></label>
+					<label><input type="radio" name="quest3"><span>Терешкова</span></label>
+			</div>
+			<div  class="q q4">
+					<label><input type="radio" name="quest4"><span>Только бас!</span></label>
+					<label><input type="radio" name="quest4"><span>Банджо</span></label>
+					<label><input type="radio" name="quest4"><span>Гитара без двух струн</span></label>
+					<label><input type="radio" name="quest4"><span>Укулеле</span></label>
+			</div>
+			<div  class="q q5">
+					<label><input type="radio" name="quest5"><span>Николай (№1)</span></label>
+					<label><input type="radio" name="quest5"><span>Кирилл (№6)</span></label>
+					<label><input type="radio" name="quest5"><span>Никита (№4)</span></label>
+					<label><input type="radio" name="quest5"><span>Илья (№5)</span></label>
+			</div>
+			<div  class="q q6">
+					<label><input type="radio" name="quest6"><span>"Don't Stop Me"</span></label>
+					<label><input type="radio" name="quest6"><span>"Venus"</span></label>
+					<label><input type="radio" name="quest6"><span>"You’re Gonna Go Far, Kid"</span></label>
+					<label><input type="radio" name="quest6"><span>"Bicycle Race"</span></label>
+			</div>
+			<div  class="q q7">
+					<label><input type="radio" name="quest7" checked=""><span>Лёша</span></label>
+					<label><input type="radio" name="quest7"><span>Алексей</span></label>
+					<label><input type="radio" name="quest7"><span>Дикун А.</span></label>
+					<label><input type="radio" name="quest7"><span>Лёха</span></label>
+			</div>
+			<div  class="q q8">
+					<label><input type="radio" name="quest8"><span>Николай (№1)</span></label>
+					<label><input type="radio" name="quest8"><span>Полина (№3)</span></label>
+					<label><input type="radio" name="quest8"><span>Алёна (№???)</span></label>
+					<label><input type="radio" name="quest8"><span>Илья (№5)</span></label>
+			</div>
+			<div  class="q q9">
+					<label><input type="radio" name="quest9"><span>Николай (№1)</span></label>
+					<label><input type="radio" name="quest9"><span>Кирилл (№6)</span></label>
+					<label><input type="radio" name="quest9"><span>Никита (№4)</span></label>
+					<label><input type="radio" name="quest9"><span>Илья (№5)</span></label>
+			</div>
+			<div  class="q q10">
+					<label><input type="radio" name="quest10"><span>Один, конечно!</span></label>
+					<label><input type="radio" name="quest10"><span>Двое</span></label>
+					<label><input type="radio" name="quest10"><span>Четверо</span></label>
+					<label><input type="radio" name="quest10"><span>Вся группа!</span></label>
+			</div>
+			<div class="q q11"></div>
+			<div class="q q11">
+				Тестирование завершено, ваши ответы анализируются и сохраняются...
+			</div>
+			<div class="q q11">
+				<div class="result">CHECK</div>
+				<div class="result"></div>
+					<input type="text" name="user" class="result">
+				<div class="endtest" id="buttonst"><a onclick="end()">Узнать результат!</a></div>
+			</div>
+			<div class="butend">
+					<div class="result" id="save"><a onclick="save()">Сохранить</a></div>
+					<div class="result" id="save"><a href="result.html" target="_blank">Таблица результатов</a></div>
+			</div>
+			<div class="nextq">
+					<a onclick="next()"> Далее</a>
+			</div>
+		</form>
+	</div>
+	<div id="menubuttom" class="menubuttom1" onclick="openmenu()">МЕНЮ</div>
+	<div class="iphonemenu1" id="iphonemenu">
+			<div><a href="index.html"> ГЛАВНАЯ</a></div>
+			<div><a href="news.html"> НОВОСТИ</a></div>
+			<div><a href="photo.html"> ГАЛЕРЕЯ</a></div>
+			<div><a href="fest.html"> КОНЦЕРТЫ</a></div>
+			<div><a href="faq.html"> ВКТОРИНА</a></div>
+			<div><a onclick="change()"> ОСВЕТИТЬ</a></div>
+	</div>
+	<footer>
+		<div class="info" id="info1">
+			<div></div>
+				<p>Следите за нами в социальных сетях: </p>
+			<div></div>
+			<div></div>
+			<div>
+				<a href="https://vk.com/viasonder" target="_blank"><img src="img/vk.png"></a>
+				<img src="img/insta.png">
+			</div>
+			
+		</div>
+		<div id="links" class="links1">
+			<p>©2019 ВИА "СОНДЭР". Все права защищены, совпадения случайны</p>
+			
+		</div>
+	</footer>
+</main>
+</body>
